@@ -81,7 +81,7 @@ function Project({ title, stack, also, poster, video, live, GitHub, description,
     }
 
     let stackHeader;
-    if (also.length > 0) {
+    if (stack.length > 0) {
         stackHeader = <h4 className="project__stack-header">Tech stack:</h4>;
     }
 
@@ -119,7 +119,6 @@ function Project({ title, stack, also, poster, video, live, GitHub, description,
                 </video>
             </div>
             <div className="buttons">
-                <Link to={video} className="buttons__preview">Video Preview</Link>
                 <a href={live} target="_blank" className="buttons__link">Live Website</a>
                 {gitHub}
             </div>
