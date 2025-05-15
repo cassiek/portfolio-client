@@ -8,7 +8,7 @@ function Footer() {
             <Link to="https://github.com/cassiek" className="footer__github-icon"></Link>
             <Link to="mailto:ckumpula123@gmail.com" className="footer__email-icon"></Link>
             <p className="footer__bullet-point">•</p>
-            <p className="footer__copyright">Cassandra Kumpula © 2024</p>
+            <p className="footer__copyright">Cassandra Kumpula © 2025</p>
         </footer>
     ) 
 };
