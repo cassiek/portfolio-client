@@ -19,7 +19,7 @@ function ContactPage() {
                         connect with you.
                     </p>
                     <div>
-                        <p className="contact-page__CTA">Let's get in touch!</p>
+                        <p className="contact-page__CTA">Contact me at the following:</p>
                         <div className="socials-icons">
                             <Link to="https://www.linkedin.com/in/cassie-k/" className="socials-icons__linkedin"></Link>
                             <Link to="https://medium.com/@cassiekumpula/about" className="socials-icons__medium"></Link>
