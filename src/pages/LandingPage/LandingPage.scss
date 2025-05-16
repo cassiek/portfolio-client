@@ -4,12 +4,13 @@
 .landing-page {
     height: 49.59vh;
     @include tablet {
-        height: 50.45vh;
+        height: 52.485vh;
     }
     &__content {
         margin: 12rem 0;
         @include tablet {
             margin: 18rem 0;
+            display: flex;
         }
         @include desktop {
             width: $desktop-content-width;
@@ -18,7 +19,6 @@
     }
     &__header {
         width: 14rem;
-        line-height: 6rem;
         color: $portfolio-grey;
         text-align: center;
         margin: 0 auto;

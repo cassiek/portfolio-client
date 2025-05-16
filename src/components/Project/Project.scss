@@ -9,6 +9,8 @@
     }
     &__title {
         margin-bottom: 0.5rem;
+        color: $portfolio-lilac;
+        font-size: 2rem;
         @include tablet {
             margin-bottom: 1rem;
         }
@@ -23,28 +25,42 @@
         }
     }
     &__stack-header {
-
+        color: $med-dark-grey;
+        margin-bottom: 0.1rem;
     }
     &__stack-list {
         margin-bottom: 1rem;
     }
     &__stack-item {
-
+        margin: 0.3rem 0;
+    }
+    &__stack-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0.1rem 0 0 0.4rem;
+        @include tablet {
+            margin: 0.15rem 0 0 0.5rem;
+        }
+    }
+    &__stack-item-container {
+        display: flex;
     }
     &__also-container {
 
     }
     &__also-header {
-
+        color: $med-dark-grey;
+        margin-bottom: 0.1rem;
     }
     &__also-list {
         margin-bottom: 1rem;
     }
     &__also-item {
-
+        margin: 0.3rem 0;
     }
     &__description-header {
         margin-bottom: 0.5rem;
+        color: $med-dark-grey;
         @include tablet {
             margin-bottom: 1rem;
         }
@@ -57,6 +73,7 @@
     }
     &__requirements-header {
         margin-bottom: 0.5rem;
+        color: $med-dark-grey;
         @include tablet {
             margin-bottom: 1rem;
         }
@@ -95,16 +112,14 @@
         border: 1px solid $portfolio-lilac;
         margin: 0.5rem 1rem 1.9rem 1rem;
         text-decoration: none;
-        color: $portfolio-grey;
+        color: $dark-grey;
         border-radius: 0.5rem;
         @include tablet {
             padding: 0.75rem;
             margin: 1rem;
         }
         &:hover {
-            background-color: $light-silver;
-            box-shadow: 0 0.2rem 0.5625rem -0.0625rem #B9B9B970;
-            color: $dark-grey;
+            box-shadow: 0 0 0.7rem 0.001rem $portfolio-grey;
         }
         &:active {
             transform: translate(0, 0.2rem);
@@ -115,16 +130,14 @@
         border: 1px solid $portfolio-lilac;
         margin: 0.5rem 1rem 1.9rem 0;
         text-decoration: none;
-        color: $portfolio-grey;
+        color: $dark-grey;
         border-radius: 0.5rem;
         @include tablet {
             padding: 0.75rem;
             margin: 1rem 1rem 1rem 0;
         }
         &:hover {
-            background-color: $light-silver;
-            box-shadow: 0 0.2rem 0.5625rem -0.0625rem #B9B9B970;
-            color: $dark-grey;
+            box-shadow: 0 0 0.7rem 0.001rem $portfolio-grey;
         }
         &:active {
             transform: translate(0, 0.2rem);

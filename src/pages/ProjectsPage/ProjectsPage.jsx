@@ -14,7 +14,9 @@ function ProjectsPage() {
         async function getProjects() {
             try {
                 const response = await axios.get(API_URL);
+                console.log(response.data);
                 setProjects(response.data);
+                console.log(projects);
             } catch(error) {
                 console.error(error);
             }
@@ -35,7 +37,7 @@ function ProjectsPage() {
                         stack={project.stack}
                         also={project.also}
                         poster={API_URL+`/${project.poster}`}
-                        video={project.video}
+                        video={API_URL+`/${project.video}`}
                         live={project.live}
                         GitHub={project.GitHub}
                         description={project.description}

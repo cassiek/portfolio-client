@@ -11,18 +11,19 @@ function LandingPage() {
                     <TypeAnimation
                         sequence={[
                             "Hi, I'm Cassie. 👋",
-                            900,
+                            700,
                             "I'm a full-stack web developer.",
-                            900,
+                            700,
                             "Welcome to my portfolio.",
-                            900
+                            700,
                         ]}
+                        speed={70}
                         wrapper="span"
                         cursor={true}
                         repeat={Infinity}
+                        className="landing-page__type-animation"
                     />
                 </h1>                            
-                
             </section>
         </main>
     )
