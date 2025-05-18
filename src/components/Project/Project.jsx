@@ -31,7 +31,7 @@ import StackOverflow from "../../assets/icons/Stack Overflow.png";
 import ViteIcon from "../../assets/icons/Vite.js.png";
 import VSCodeIcon from "../../assets/icons/Visual Studio Code.png";
 
-function Project({ title, stack, also, poster, video, live, GitHub, description, requirements }) {
+function Project({ title, stack, also, poster, video, live, GitHub, description, results }) {
     
     let gitHub;
     if (GitHub == true) {
@@ -125,7 +125,7 @@ function Project({ title, stack, also, poster, video, live, GitHub, description,
             <h4 className="project__description-header">Overview</h4>
             <p className="project__description">{description}</p>
             <h4 className="project__requirements-header">Requirements</h4>
-            <p className="project__requirements">{requirements}</p>
+            <p className="project__requirements">{results}</p>
         </div>
     );
 }

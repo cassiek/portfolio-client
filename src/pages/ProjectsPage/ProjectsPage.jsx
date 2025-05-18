@@ -41,7 +41,7 @@ function ProjectsPage() {
                         live={project.live}
                         GitHub={project.GitHub}
                         description={project.description}
-                        requirements={project.requirements}
+                        results={project.results}
                         />
                     );
                 })}
