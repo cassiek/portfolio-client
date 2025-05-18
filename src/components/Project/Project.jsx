@@ -124,7 +124,7 @@ function Project({ title, stack, also, poster, video, live, GitHub, description,
             </div>
             <h4 className="project__description-header">Overview</h4>
             <p className="project__description">{description}</p>
-            <h4 className="project__requirements-header">Requirements</h4>
+            <h4 className="project__requirements-header">Results</h4>
             <p className="project__requirements">{results}</p>
         </div>
     );
