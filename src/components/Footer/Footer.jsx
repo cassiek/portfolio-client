@@ -1,6 +1,5 @@
 import "./Footer.scss";
 import { Link } from "react-router-dom";
-
 import LinkedIn from "../../assets/icons/linkedin-in-brands.svg?react";
 import GitHub from "../../assets/icons/github-brands.svg?react";
 import Email from "../../assets/icons/envelope-solid.svg?react";
