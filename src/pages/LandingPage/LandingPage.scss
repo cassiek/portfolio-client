@@ -2,11 +2,11 @@
 @use "../../styles/partials/variables" as *;
 
 .landing-page {
-    min-height: 69.58vh;
+    min-height: 69.9vh;
     display: flex;
     flex-direction: column;
     @include tablet {
-        min-height: 88vh;
+        min-height: 88.3vh;
     }
     &__content {
         margin: 12rem 0;
