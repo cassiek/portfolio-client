@@ -2,11 +2,11 @@
 @use "../../styles/partials/variables" as *;
 
 .resume-page {
-    margin: 0 0 ;
+    margin: 0;
     padding: 0;
-    max-height: 110vh;
+    min-height: 115vh;
     @include tablet {
-        min-height: 100vh;
+        min-height: 115vh;
     }
     @include desktop {
         width: $desktop-content-width;
@@ -29,7 +29,7 @@
         }
     }
     &__pdf {
-        height: 90vh;
+        height: 100vh;
         width: 100%;
         margin: 2rem auto 0 auto;
     }
