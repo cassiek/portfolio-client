@@ -3,8 +3,10 @@
 
 .skills-page {
     max-height: fit-content;
+    display: flex;
+    flex-direction: column;
     @include tablet {
-        min-height: 89vh;
+        min-height: 88vh;
     }
     @include desktop {
         width: $desktop-content-width;
