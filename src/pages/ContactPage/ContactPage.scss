@@ -2,9 +2,11 @@
 @use "../../styles/partials/variables" as *;
 
 .contact-page {
-    height: 74vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 69.58vh;
     @include tablet {
-        height: 89vh;
+        min-height: 88vh;
     }
     &__content {
         color: $med-dark-grey;
