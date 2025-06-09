@@ -4,7 +4,8 @@
 .footer {
     display: flex;
     justify-content: center;
-    margin: 0.5rem 0;
+    //padding-bottom: 0.5rem;
+    //margin-top: auto;
     &__bullet-point {
         color: $portfolio-lilac;
         margin-right: 1rem;
