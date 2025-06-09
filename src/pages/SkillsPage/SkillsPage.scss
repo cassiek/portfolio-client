@@ -22,7 +22,7 @@
         }
     }
     &__header {
-        color: $portfolio-grey;
+        color: $med-dark-grey;
         font-size: 1.6rem;
         @include tablet {
             margin-left: 0;
@@ -41,7 +41,7 @@
     min-width: 10rem;
     max-width: fit-content;
     margin: 1rem 1rem 0 0;
-    color: $medium-grey;
+    color: $med-dark-grey;
     border: $portfolio-grey 1px solid;
     border-radius: 0.5rem;
     &__header {
@@ -68,6 +68,7 @@
     }
     &__item {
         margin: 0.25rem 0 0.4rem 1rem;
+
         &:hover {
             font-size: 1.6rem;
             margin: 0.4rem 1rem 0.4rem 1rem;
@@ -85,7 +86,7 @@
     min-width: 10rem;
     max-width: fit-content;
     margin: 1rem 1rem 0 0;
-    color: $medium-grey;
+    color: $med-dark-grey;
     border: $portfolio-grey 1px solid;
     border-radius: 0.5rem;
     @include tablet {
@@ -133,7 +134,7 @@
     flex-direction: column;
     min-width: 10rem;
     margin: 1rem 0 0 0;
-    color: $medium-grey;
+    color: $med-dark-grey;
     border: $portfolio-grey 1px solid;
     border-radius: 0.5rem;
     @include tablet {
