@@ -54,49 +54,10 @@
 
 .socials-icons {
     display: flex;
-    &__linkedin {
-        background-image: url('../../assets/icons/linkedin.png');
-        width: 1.3rem;
-        height: 1.3rem;
-        display: block;
+    &__icon {
+        width: 2rem;
+        height: 1.5rem;
         margin-right: 1rem;
-        margin-top: -0.12rem;
-        background-repeat: no-repeat;
-        background-size: cover;
-        &:hover {
-            background-image: url('../../assets/icons/linkedin-drkpurple.png');
-        }
-        &:active {
-            transform: translate(0, 0.2rem);
-        }
-    }
-    &__medium {
-        background-image: url('../../assets/icons/medium-brands-solid.svg');
-        width: 1.7rem;
-        height: 1.3rem;
-        display: block;
-        margin-right: 1.2rem;
-        background-repeat: no-repeat;
-        background-size: cover;
-        &:hover {
-            background-image: url('../../assets/icons/medium-brands-solid-drkpurple.svg');
-        }
-        &:active {
-            transform: translate(0, 0.2rem);
-        }
-    }
-    &__github {
-        background-image: url('../../assets/icons/github.png');
-        width: 1.4rem;
-        height: 1.4rem;
-        display: block;
-        margin-right: 1rem;
-        margin-top: -0.1rem;
-        background-repeat: no-repeat;
-        background-size: cover;
-        &:hover {
-            background-image: url('../../assets/icons/github-drkpurple.png');
-        }
         &:active {
             transform: translate(0, 0.2rem);
         }
@@ -107,8 +68,8 @@
     margin: 2rem 0 2rem 0;
     display: flex;
     &:hover {
-        .email__icon {
-            background-image: url('../../assets/icons/email-drkpurple.png');
+        svg path {
+            fill: $dark-purple;
         }
         .email__link {
             color: $dark-purple;
@@ -120,14 +81,11 @@
         }
     }
     &__icon {
-        background-image: url('../../assets/icons/email.png');
         width: 1.3rem;
         height: 1.3rem;
         display: block;
         margin-right: 0.5rem;
         margin-top: 0.11rem;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
     &__link {
         color: $portfolio-lilac;
