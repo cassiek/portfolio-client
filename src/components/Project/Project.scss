@@ -163,6 +163,7 @@
     }
     &__private-text {
         margin: 0 1rem 0 0;
+        color: $dark-grey;
         @include tablet {
             margin: 0.2rem 1rem 0 0;
         }
